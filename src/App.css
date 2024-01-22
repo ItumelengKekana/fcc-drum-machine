@@ -1,17 +1,48 @@
-body {
-	background-color: grey;
-	
-}
-
 .App {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-	border: 4px solid blue;
-	width: 660px;
+  border: 5px solid blue;
+  width: 660px;
+  background-color: #b3b3b3;
+  text-align: center;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: grey;
+  margin-top: 10px;
+  box-shadow: black 3px 3px 5px;
+}
+
+.controls-container {
+  width: 240px;
+  height: 272px;
+}
+
+.switch {
+  width: 100px;
+  margin: auto;
+}
+
+switch p {
+  margin-bottom: 0;
+}
+
+#display {
+  width: 200px;
+  background-color: gray;
+  margin: 15px auto;
+  padding: 15px;
+  box-sizing: border-box;
 }
